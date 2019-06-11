@@ -1,0 +1,139 @@
+.parent {
+	border-width: 5px;
+	border-style: solid;
+	border-color: lightcoral;
+	border-radius: 8px;
+}
+
+.item {
+	border: 1px solid black;
+	width: 30%;
+	height : 200px;
+	margin: 30px;
+	background: white;
+	text-align: center;
+	line-height: 50px;
+	/*font-weight: 600;*/
+	flex-direction: column;
+}
+
+.parent {
+	display:flex;
+	height: auto;
+	flex-wrap: wrap;
+	align-content: spcae-between; /*stretch;*/
+	flex-direction: column;
+	justify-content: center;
+	margin: 50px auto;
+}
+
+/*.item {
+	width: 25%;
+	border: 1px solid black;
+}
+*/
+
+.item-left {
+	justify-content: left;
+	margin-left: 10%;
+}
+
+.item-right {
+	justify-content: right;
+	margin-top: -16%;
+	margin-left: 60%;
+}
+
+.item:nth-child(1) {
+	width: 20%;
+	height: 35%;
+	margin-top: 5%;
+	margin-left: 15%;
+	border-radius: 8px;
+	border-color: #C1CEEC;
+}
+
+.item:nth-child(2) {
+	width: 40%;
+	height: 10%;
+	margin-top: -26%;
+	margin-left: 40%;
+	border: 0px solid black;
+	background: transparent;
+}
+
+.item:nth-child(3) {
+	margin-top: -5%;
+	margin-left: 15%;
+	width: 80%;
+	height: 35%; 
+	border: 0;
+	background: transparent;
+	
+}
+
+.content {
+	margin-top: 10%;/*20px;*/
+	line-height: 5%; /*5px;*/
+}
+
+
+.button {
+	background-color: #A3BBF3;
+	border: none;
+	border-radius: 8px;
+	font-color: white;
+	padding: 15px 32px;
+	margin: 45px 20px;
+	text-align: center;
+	diplay: inline-block;
+	font-size: 20px;
+	cursor: pointer;
+	height: auto;
+	width: auto;
+}
+
+.review {
+	width: 10%; 
+	height: 10%; 
+	margin-left: -70%;
+	margin-top: -5%;
+}
+
+.content {
+	margin-top: 5%; /*20px;*/
+	line-height: 30%; /*10px;*/
+}
+
+.select {
+	margin-top: 25%;
+	margin-left: -20%;
+}
+
+
+h3 {
+	font-size: 70px;
+	text-align: center;
+}
+
+h4 {
+	font-size: 30px;
+	text-align: left;
+}
+
+p  {
+	font-size: 13px;
+	text-align: left;
+	margin-left: 10px;
+	font-weight: 600;
+}
+
+p {
+	font-size: 13px;
+	text-align: left;
+	margin-left: 10px;
+	font-weight: 600;
+	line-height: 15px;
+}
+
+
