@@ -232,7 +232,8 @@ CREATE TABLE `user` (
   `address` varchar(200) NOT NULL,
   `username` varchar(50) NOT NULL,
   `password` varchar(255) NOT NULL,
-  `level` int(11) NOT NULL
+  `level` int(2) NOT NULL,
+  `status` int(2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
